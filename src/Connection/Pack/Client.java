@@ -7,7 +7,7 @@ import java.net.Socket;
 //import Encoder.Pack.*;
 /**
  * @author José Agustín Venegas
- * Se crea la clase cliente que se encargará de enviar mediante socket un valor de código
+ * Se crea la clase cliente la cual importa de Encoder, que se encargará de enviar mediante socket un valor de código en JSON
  */
 public class Client {
 
@@ -37,7 +37,7 @@ public class Client {
 	}
 	/**
 	 * @param args
-	 * Se crea la clase Socket que importa de esta librería y mediante un ip y puerto de computador específico, envía el valor del atributo Code
+	 * Se crea la clase Socket que importa de esta librería Socket() y mediante un ip y puerto de computador específico, envía el valor del atributo Code
 	 */
 	public static void main(String[] args) {
 		new Client(12);
